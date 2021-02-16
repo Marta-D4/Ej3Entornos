@@ -1,6 +1,6 @@
 package entidad;
 
-public class motor {
+public class Motor {
 
 	private int id;
 	private String tipoMotor;
@@ -24,10 +24,10 @@ public class motor {
 		this.potencia = potencia;
 	}
 	
-	public motor() {
+	public Motor() {
 		super();
 	}
-	public motor(int id, String tipoMotor, int potencia) {
+	public Motor(int id, String tipoMotor, int potencia) {
 		super();
 		this.id = id;
 		this.tipoMotor = tipoMotor;
