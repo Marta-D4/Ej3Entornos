@@ -11,7 +11,10 @@ public class Coche {
 	private int km;
 	private Motor motor;
 	
+	//añadido en el repoditorio principal
 	private String color;
+	//añadido en el clonado
+	private String colorVentanas;
 
 	
 	public int getId() {
@@ -59,8 +62,9 @@ public class Coche {
 		super();
 	}
 
+	
 
-	public Coche(int id, String matricula, String modelo, String marca, Motor motor, int km, String color) {
+	public Coche(int id, String matricula, String modelo, String marca, Motor motor, int km, String color, String colorVentanas) {
 
 		super();
 		this.id = id;
@@ -69,13 +73,20 @@ public class Coche {
 		this.marca = marca;
 		this.km = km;
 		this.motor = motor;
-		this.color = color;;
+		this.color = color;
+		this.colorVentanas = colorVentanas;
 	}
 	public int getKm() {
 		return km;
 	}
 	public void setKm(int km) {
 		this.km = km;
+	}
+	public String getColorVentanas() {
+		return colorVentanas;
+	}
+	public void setColorVentanas(String colorVentanas) {
+		this.colorVentanas = colorVentanas;
 	}
 	
 	
