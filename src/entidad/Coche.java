@@ -10,6 +10,8 @@ public class Coche {
 	
 	private int km;
 	private Motor motor;
+	
+	private String color;
 
 	
 	public int getId() {
@@ -38,6 +40,13 @@ public class Coche {
 	}
 	
 	
+	public String getColor() {
+		return color;
+	}
+	public void setColor(String color) {
+		this.color = color;
+	}
+	
 	
 	public Motor getMotor() {
 		return motor;
@@ -51,7 +60,7 @@ public class Coche {
 	}
 
 
-	public Coche(int id, String matricula, String modelo, String marca, Motor motor, int km) {
+	public Coche(int id, String matricula, String modelo, String marca, Motor motor, int km, String color) {
 
 		super();
 		this.id = id;
@@ -60,6 +69,7 @@ public class Coche {
 		this.marca = marca;
 		this.km = km;
 		this.motor = motor;
+		this.color = color;;
 	}
 	public int getKm() {
 		return km;
