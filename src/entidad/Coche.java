@@ -1,6 +1,6 @@
 package entidad;
-//java bean o pojo, atributos privados y g y s publicos.
-//tmb tienen que tener el cons por defecto o cons vacio.
+//java bean o pojo, atributos privados y g y s publicos
+//tmb tienen que tener el cons por defecto o cons vacio
 public class Coche {
 
 	private int id;
